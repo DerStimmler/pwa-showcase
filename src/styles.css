@@ -18,8 +18,9 @@ html, body {
 }
 
 .main {
-    display: flex;
+    display: grid;
     gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .footer {
@@ -39,8 +40,6 @@ html, body {
     border-radius: 0.75em;
     padding: 1.5em;
     background-color: #6c6c6c6c;
-    min-width: 300px;
-    width: fit-content;
     height: fit-content;
 }
 
