@@ -35,3 +35,11 @@ const countStorageId = "count";
 var count = localStorage.getItem(countStorageId) ?? 0;
 const countElement = document.getElementById("count");
 handleCountChange(count);
+
+//Service Worker
+if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+        navigator.serviceWorker
+            .register("./sw.js");
+    });
+}
