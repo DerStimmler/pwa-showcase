@@ -43,3 +43,19 @@ if ("serviceWorker" in navigator) {
             .register("./sw.js");
     });
 }
+
+//Notification
+async function notify() {
+    if (!("Notification" in window)) {
+        alert("Notifications not supported");
+        return;
+    }
+
+    if (Notification.permission !== "granted") {
+        await Notification.requestPermission();
+    }
+
+    const serviceWorker = await navigator.serviceWorker.ready;
+
+    serviceWorker.showNotification("Current count: " + count);
+}
