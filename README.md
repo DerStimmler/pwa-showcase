@@ -1,6 +1,6 @@
 # PWA Showcase
 
-Example repo to show the process of turning a vanilla WebApp into a PWA
+Example project to show the process of turning a vanilla WebApp into a PWA
 
 ## Features
 

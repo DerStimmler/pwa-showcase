@@ -1,0 +1,25 @@
+{
+	"name": "PWA Showcase",
+	"short_name": "PWA",
+	"start_url": "../index.html",
+	"developer": {
+		"name": "DerStimmler",
+		"url": "https://github.com/DerStimmler"
+	},
+	"description": "Example project to show the process of turning a vanilla WebApp into a PWA",
+	"icons": [
+		{
+			"src": "images/android-chrome-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "images/android-chrome-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"theme_color": "#1c1c1c",
+	"background_color": "#1c1c1c",
+	"display": "standalone"
+}
