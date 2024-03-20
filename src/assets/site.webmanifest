@@ -6,7 +6,7 @@
 		"name": "DerStimmler",
 		"url": "https://github.com/DerStimmler"
 	},
-	"description": "Example project to show the process of turning a vanilla WebApp into a PWA",
+	"description": "Example project to show the process of turning a vanilla Web App into a PWA",
 	"icons": [
 		{
 			"src": "images/android-chrome-192x192.png",

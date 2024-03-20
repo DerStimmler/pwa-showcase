@@ -1,6 +1,10 @@
 # PWA Showcase
 
-Example project to show the process of turning a vanilla WebApp into a PWA
+Example project to show the process of turning a vanilla Web App into a PWA
+
+## Demo
+
+Access the PWA [here](https://derstimmler.github.io/pwa-showcase/).
 
 ## Features
 
@@ -8,6 +12,7 @@ Example project to show the process of turning a vanilla WebApp into a PWA
 - Installable
 - Offline-Mode
 - Notifications
+- State Management via Web Storage
 
 ## Run locally
 
